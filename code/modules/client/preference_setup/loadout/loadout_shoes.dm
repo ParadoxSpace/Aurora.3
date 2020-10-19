@@ -99,6 +99,7 @@
 	display_name = "boot selection"
 	description = "Boots, in a variety of styles."
 	path = /obj/item/clothing/shoes/jackboots
+	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/shoes/boots/New()
 	..()
